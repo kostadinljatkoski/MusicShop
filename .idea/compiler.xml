@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="music-shop" />
+        <module name="artists-info" />
+        <module name="clients" />
+        <module name="albums-catalog" />
+        <module name="order-management" />
+        <module name="shared-kernel" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="albums-catalog" options="-parameters" />
+      <module name="artists-info" options="-parameters" />
+      <module name="clients" options="-parameters" />
+      <module name="order-management" options="-parameters" />
+      <module name="shared-kernel" options="-parameters" />
+    </option>
+  </component>
+</project>
